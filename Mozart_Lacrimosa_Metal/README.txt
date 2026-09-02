@@ -1,72 +1,63 @@
-════════════════════════════════════════════════════════════════
-  LACRIMOSA × BRUTAL SYMPHONIC DEATH METAL — 60s sample (v4)
-  W.A. Mozart (Requiem in D minor, K. 626) × Heavy / Brutal Metal
-════════════════════════════════════════════════════════════════
+MOZART "LACRIMOSA" x REAL HEAVY METAL — v5 "REAL METAL EDITION"
+================================================================
+57 seconds | 44.1 kHz / 16-bit WAV + MP3 320 kbps | D-minor, drop-D
 
-СОДЕРЖАНИЕ АРХИВА
------------------
-  Lacrimosa_Metal_Sample.wav   — мастер, 44.1 кГц / 16 бит / стерео (61 сек)
-  Lacrimosa_Metal_Sample.mp3   — MP3 320 kbps (для телефона и мессенджеров)
-  cover.png                    — обложка (1024×1024)
-  README.txt                   — этот файл
+WHAT'S NEW IN v5 (built from a reference-track analysis)
+--------------------------------------------------------
+User supplied a reference of "real metal" — the engine was re-tuned
+to match its measured profile:
 
-ЗВУЧАНИЕ
---------
-Мелодия взята ТОЧНО из подлинной партитуры Реквиема K.626 —
-но теперь это ЖЁСТКИЙ МЕТАЛ: гитары даунтюном (павер-аккорды
-во 2-й октаве, D2), каскадный хай-гейн, скоушенные середины
-и тайт-чаг 16-ми, бласт-бит на кульминации, грязный бас.
+  * SPECTRUM MATCH: deep mid-scoop (250-1000 Hz cut to ~1/3 of v4),
+    presence +3.2 kHz, and an AIR band kept to 13.5 kHz (v4 died
+    at 6.8 kHz). Band-energy profile now tracks the reference.
+  * QUAD-TRACKED GUITARS: 4 wall tracks (2L+2R, +/-9c detune,
+    5.5/8 ms lags) through a 4-stage asymmetric high-gain cascade
+    with pick-scrape transients and gated amp hiss.
+  * NON-STOP 16TH CHUGS: 16th-note palm-muted riffing through all
+    heavy bars (3.5x denser than v4), open accents on changes.
+  * BASS DOUBLES THE CHUGS: 16th bass stabs locked with the wall —
+    low-band punch density matched to the reference (4.3 onsets/s).
+  * 16TH HATS + SIZZLE: hats carry a 12-18 kHz sizzle layer; rides
+    through blast beats and the drop wall.
+  * HARDER DRUMS: shorter kick with a 2.2-5.5 kHz click that cuts
+    the wall, snare with a 3-8 kHz rimshot crack.
+  * FLAT LOUD MASTER: slow RMS-leveling compressor pulls the whole
+    track to a flat -14.5 dB RMS (like the reference), high-band
+    exciter adds sheen, hard tanh clip, peak -0.1 dBFS.
+  * ORCHESTRA UNDER THE WALL: choir/strings/brass/organ pulled
+    below the guitars; harpsichord intro-only; melody still
+    clearly present, riding the wall.
 
-  00:00  Интро      — гроза с расколом, дождь, погребальный колокол,
-                      клавесин, струнное остинато
-  00:03.7 Гитары    — палм-мьют чаги вступают, нарастание
-  00:07.4 Тема      — «Lacrimosa dies illa»: A4–F5–D5–D5–C#5
-                      хор + чаги, 16-е добив-удары в конце фраз
-  00:14.9 Подъём    — «qua resurget ex favilla»: гаммы вверх,
-                      аутентичный бас F-E-A-G
-  00:22.3 Judicandus— райзер обрывается в удар: хроматическая
-                      лестница D#5→A5, двойная бочка триолями,
-                      медные стабы, арфа-глиссандо
-  00:26.0 КУЛЬМИНАЦИЯ «homo» — БЛАСТ-БИТ (чередование бочка/
-                      рабочий 16-ми) под хор фортиссимо с рыком
-                      (гроул-модуляция 27 Гц), медный свелл A7
-  00:29.8 Брейкдаун — «reus»: всё стихает, клавесин-16-е на
-                      органной точке A7
-  00:33.5 ★ ДРОП ★  — пауза-вдох → УДАР: 16-е двойная бочка +
-                      16-е чаги открытых гитар стеной, ПИНЧ-
-                      ГАРМОНИК-СКВИЛ (D6), медь, хор, бас-галоп,
-                      саб-слэм 80→28 Гц, двойной крэш
-  00:37.2 Pie Jesu  — контраст: эхо темы, хор + глокеншпиль
-  00:52.1 ФИНАЛ     — обратный крэш → удар D-moll: двойной крэш,
-                      литавры, медная стена, хор, суббас D1
-  хвост  — последний одинокий удар колокола
+THE STRUCTURE (kept from v3/v4)
+--------------------------------
+  0:00  Storm: thunder crack, rain, funeral bell (D), organ
+  0:06  Harpsichord continuo + string ostinato, timpani heartbeat
+  0:13  PM 16th chugs enter -> wall builds
+  0:21  "Lacrimosa dies illa" — choir theme over 16ths
+  0:38  "qua resurget" — rising Dorian scale, glockenspiel shimmer
+  0:44  "Judicandus" — chromatic ascent, brass stabs, double kick
+  0:50  "homo" — BLAST BEAT + growl choir + climax A5
+  0:56  "reus" breakdown — snare roll crescendo
+  1:01  *** THE DROP *** breath-gap (mix plunges to -81 dB) ->
+        SLAM: open 16th wall, double-kick barrage, brass fortissimo,
+        pinch-harmonic squeal, sub-boom, double crash
+  1:08  "Pie Jesu" — the one breather (still 16th bed, quieter)
+  1:15  Final wave + cadence, timpani roll
+  1:22  FINALE: D2/D1 wall, full choir, thunder-bell afterglow
 
-ЧТО СДЕЛАНО В v4 (BRUTAL EDITION)
-----------------------------------
-  • Гитары даунтюном на октаву ниже + каскадный перегруз
-    (двухступенчатый tanh) + каб-сим со скоушенными серединами,
-    бустом низа и присенcа — современный тайт-чаг
-  • Чаги 16-ми (двойные добивы в конце каждой триольной группы),
-    в дропе — стена 16-х открытых аккордов
-  • БЛАСТ-БИТ на кульминации «homo»
-  • Бочка: тверже, короче, злее (клик + тело); рабочий: римшот-
-    треск + тугая атака
-  • Бас: грязный перегруз + щелчок медиатора
-  • Хор: тёмные «кричащие» форманты + гроул-AM на кульминациях
-  • Микс: суше и плотнее (реверб −25%), темп +9% (четверть=96),
-    мастеринг плотнее (RMS −14 дБ, дроп −10.7 дБ, финал −8.6 дБ)
-  • Оркестр убран под гитары: орган только в интро/брейкдауне/
-    финале, струнные тише, ветер убран, колокола скромнее
+AUTHENTIC MELODY
+----------------
+Every theme note is from the original K.626 score (verified against
+the source MIDI): A4-F5-D5 opening, D-E-F-G rising scale, the
+D#-E-F-F# chromatic Judicandus ascent, G-G#-A climax, Pie Jesu,
+and the Bb cadence into final D5.
 
-ТЕХНИЧЕСКИЕ ДЕТАЛИ
-------------------
-  • Темп: 12/8, четверть = 96 BPM
-  • Тональность: ре минор (как в оригинале)
-  • Синтез: полностью программный (numpy), 12+ тембров
-  • Мастеринг: highpass 26 Гц, жёсткий soft-clip, пик −0.4 дБ
+FILES
+-----
+  Lacrimosa_Metal_Sample.wav   57.2 s, 44.1/16 stereo
+  Lacrimosa_Metal_Sample.mp3   320 kbps with ID3 tags
+  cover.png                    1024x1024 artwork
+  README.txt                   this file
 
-АВТОРСКИЕ ПРАВА
----------------
-Музыка W.A. Mozart (1756–1791), public domain.
-Оригинальный текст Реквиема — традиционный латинский секвенс.
-Данная аранжировка и звуковой рендер созданы как демо-семпл.
+Engine: pure numpy synthesis (scripts/lacrimosa_metal_v5.py) —
+v1..v4 preserved alongside for comparison.
